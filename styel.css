@@ -4,6 +4,24 @@ body
     background-color: #262a2f;
 }
 
+.navbar{
+    background-color: cornflowerblue;
+    text-align: center;
+    margin-top: 125px;
+    height: 300%;
+    border-radius: 50px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 580px;
+    text-decoration: solid;
+    animation: blinker 1s linear infinite;
+    
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
 .main{
     background-color: white;
     width: 100px;
@@ -12,8 +30,7 @@ body
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    border-radius: 30px;
-    
+    border-radius: 30px;    
 
 }
 #box1{
